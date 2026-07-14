@@ -1,0 +1,5 @@
+npm init -y
+npm install express zod swagger-jsdoc swagger-ui-express
+npm install -D typescript @types/node @types/express ts-node nodemon
+npx tsc --init
+mkdir -p src/controllers src/routes src/services src/validators src/middleware
